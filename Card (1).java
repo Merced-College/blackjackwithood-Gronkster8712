@@ -1,8 +1,6 @@
 package cardGame;
 
-/**
- * Represents a playing card with suit, name, value and picture
- */
+
 public class Card {
     private String cardSuit;
     private String cardName;
