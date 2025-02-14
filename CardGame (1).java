@@ -31,7 +31,7 @@ public class CardGame {
 
         shuffle();
 
-        // Deal 5 cards to the player
+        // Deal 5 cards
         for(int i = 0; i < 5; i++) {
             playerCards.add(deckOfCards.remove(0));
         }
