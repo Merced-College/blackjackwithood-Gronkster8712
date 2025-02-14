@@ -11,10 +11,9 @@ public class Card {
 
     /**
      * Constructor to create a new card
-     * @param cardSuit The suit of the card (Hearts, Diamonds, etc)
-     * @param cardName The name of the card (Ace, King, etc)
-     * @param cardValue The numeric value of the card
-     * @param cardPicture The picture/symbol representation
+     *  cardSuit The suit of the card (Hearts, Diamonds, etc)
+     *  cardName The name of the card (Ace, King, etc)
+     *  cardValue The numeric value of the card
      */
     public Card(String cardSuit, String cardName, int cardValue, String cardPicture) {
         this.cardSuit = validateSuit(cardSuit);
